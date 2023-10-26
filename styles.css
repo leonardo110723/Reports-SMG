@@ -1,0 +1,78 @@
+body {
+    background-color: #0a0a0a;
+    display: flex;
+    justify-content: center;
+    font-family: 'clashdisplay-bold';
+    padding: 0;
+    width: 100%;
+    background-image: url(./logo-smg-2.png);
+    font-size: 16px;
+    color: red;
+}
+
+header h2 {
+    font-size: 18px;
+}
+
+.container-plantilla_one .content {
+    padding-top: 200px;
+}
+
+.logo {
+    margin-left: 76px;
+    margin-bottom: 0;
+}
+
+.container-plantilla_one p {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 15px;
+    transform: rotate(50deg);
+    font-weight: 700;
+}
+
+.task p {
+    margin: 0;
+}
+
+.contaner-plantilla_two {
+    page-break-before: always;
+}
+
+.contaner-plantilla_three {
+    page-break-before: always;
+}
+
+.contaner-plantilla_three .title-rotate p {
+    font-size: 100px;
+    margin: 0;
+}
+
+/*===============================*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table {
+    width: 80%;
+    height: 80%;
+}
+td, th {
+    border: 1px solid #fff;
+    padding: 20px;
+}
+.green {
+    background: green;
+}
+.pricing {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: center;
+}
